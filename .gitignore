@@ -1,0 +1,64 @@
+# Vivado build outputs & checkpoints
+build/
+build_*/
+sim/build/
+sim/build_*/
+.Xil/
+*.bit
+*.dcp
+*.rpt
+
+# Node.js & Diagram artifacts
+node_modules/
+dist/
+*.tsbuildinfo
+
+# Vivado journals, logs & backups
+*.jou
+*.log
+*.backup.*
+vivado*.jou
+vivado*.log
+vivado*.backup.*
+xsim*.jou
+xsim*.log
+xsim*.backup.*
+xvlog*.log
+xvlog*.pb
+xelab*.log
+xelab*.pb
+
+# Simulation waveforms & transient artifacts
+*.wdb
+*.vcd
+*.elf
+*.bin
+*.dis
+*.pb
+xsim.dir/
+
+# Scratch logs, diffs, and binaries
+diff_*.txt
+output_*.log
+*.out
+a.out
+
+# Python and virtual environments
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+.hypothesis/
+
+
+# Editor and OS files
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# Documentation kept locally only
+docs/
+
+FULL_CHAT_HISTORY.*
+VIVA_PREPARATION_GUIDE.*
